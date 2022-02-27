@@ -1,0 +1,3 @@
+podman-netavark source: no-debian-changes
+podman-netavark source: no-debian-copyright-in-source
+podman-netavark source: source-contains-prebuilt-ms-help-file
