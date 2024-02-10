@@ -64,10 +64,16 @@ nispor = "1.2.19"
 tower = { version = "0.4.13" }
 
 [build-dependencies]
-chrono = { version = "0.4.38", default-features = false, features = ["clock"] }
+chrono = "*"
 tonic-build = "0.11"
 
 [dev-dependencies]
 once_cell = "1.19.0"
 rand = "0.8.5"
 tempfile = "3.10.1"
+
+[profile.release]
+lto = true
+opt-level = "z"
+codegen-units = 1
+panic = "abort"
