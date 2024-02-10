@@ -8,3 +8,4 @@ vendor/
 src/proto-build/netavark_proxy.rs
 contrib/systemd/*/*.service
 .vscode*
+.cargo/
