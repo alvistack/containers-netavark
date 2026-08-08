@@ -1,0 +1,3 @@
+podman-netavark: initial-upload-closes-no-bugs
+podman-netavark: no-copyright-file
+podman-netavark: statically-linked-binary
